@@ -72,6 +72,15 @@ def OPENURL(url, mobile = False, q = False, verbose = True, timeout = 10, cookie
         if q: q.put(link)
         return link
 
+def setFile(path,content,force=False):
+    if os.path.exists(path) and not force:
+        return False
+    else:
+        try:
+            open(path,'w+').write(content)
+            return True
+        except: pass
+    return False
 
 user = selfAddon.getSetting('skyusername')
 passw = selfAddon.getSetting('skypassword')
@@ -262,8 +271,8 @@ def PLAYLINK(mname,murl,thumb):
         return ok
                                              
 def CheckForAutoUpdate(force = False):
-    GitHubRepo    = 'SportsAccess'
-    GitHubUser    = 'haze108'
+    GitHubRepo    = 'sportsaccess'
+    GitHubUser    = 'AccessHost'
     GitHubBranch  = 'master'
     UpdateVerFile = 'update'
     RunningFile   = 'running'
