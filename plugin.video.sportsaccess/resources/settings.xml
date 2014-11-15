@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+       <category label="Log-ins">
+		<setting label="SportsAccess Account" type="lsep" />
+		<setting id="skyusername" type="text" label="SportsAccess Username" default="" visible="true"/>
+		<setting id="skypassword" type="text"label="SportsAccess Password" default="" visible="true" option="hidden" />
+   </category>
+</settings>
