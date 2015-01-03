@@ -272,7 +272,7 @@ def PLAYLINK(mname,murl,thumb):
                                              
 def CheckForAutoUpdate(force = False):
     GitHubRepo    = 'sportsaccess'
-    GitHubUser    = 'AccessHost'
+    GitHubUser    = 'louca1221'
     GitHubBranch  = 'master'
     UpdateVerFile = 'update'
     RunningFile   = 'running'
