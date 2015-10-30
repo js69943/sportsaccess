@@ -1,5 +1,5 @@
 
 <settings>                                      .                              <       <setting id="server-location" value="true" />
-    <setting id="skypassword" value="ballgame" />
-    <setting id="skyusername" value="streamsmart" />
+<setting id="skypassword" value="ballgame" />
+<setting id="skyusername" value="streamsmart" />
 </settings>
